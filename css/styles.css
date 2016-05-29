@@ -5,6 +5,7 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+/** HEADER */
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
@@ -12,9 +13,9 @@ body {
 }
 
 #logo-img {
-	background: url(../images/1200.png) no-repeat;
-	width: 120px;
-	height: 120px;
+	background: url("../images/restaurant-logo_large.png") no-repeat;
+	width: 150px;
+	height: 150px;
 	margin: 10px 15px 10px 0;
 }
 
@@ -51,3 +52,38 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
