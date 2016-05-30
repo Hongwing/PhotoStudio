@@ -1,27 +1,22 @@
 body {
-	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
-	font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
 }
 
-/** HEADER */
+/** HEADER **/
 #header-nav {
-	background-color: #f6b319;
-	border-radius: 0;
-	border: 0;
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
 }
 
 #logo-img {
-	background: url("../images/restaurant-logo_large.png") no-repeat;
-	width: 150px;
-	height: 150px;
-	margin: 10px 15px 10px 0;
-}
-
-.little {
-	width: 18px;
-	height: 18px;
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
@@ -30,7 +25,6 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  // font-family: 'Bad Script', cursive;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -79,6 +73,7 @@ body {
   text-align: right;
   padding-right: 15px;
 }
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -87,3 +82,72 @@ body {
   margin-top: -30px;
 }
 /* END HEADER */
+
+/*
+<!--
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008"><span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+              </a>
+            </li>
+            <li>
+              <a href="#">
+              <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About </a>
+            </li>
+            <li>
+              <a href="#">
+              <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008"><span>410-602-5008</span></a>
+              <div>* We Deliver</div>
+            </li>
+          </ul><!--#nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+        */
