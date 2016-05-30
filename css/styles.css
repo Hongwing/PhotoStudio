@@ -64,10 +64,17 @@ body {
 #phone {
   margin-top: 5px;
 }
+
 #phone a { /* Phone number */
   text-align: right;
   padding-bottom: 0;
+  font-size: .7em;
 }
+
+#phone a span.glyphicon { /* earphone */
+  margin-right: 5px;
+}
+
 #phone div { /* We Deliver */
   color: #557c3e;
   text-align: right;
@@ -83,71 +90,74 @@ body {
 }
 /* END HEADER */
 
-/*
-<!--
-        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
-              </a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008"><span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
-              </a>
-            </li>
-            <li>
-              <a href="#">
-              <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About </a>
-            </li>
-            <li>
-              <a href="#">
-              <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008"><span>410-602-5008</span></a>
-              <div>* We Deliver</div>
-            </li>
-          </ul><!--#nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
+/** Large devices onlu **/
+@media (min-width: 1200px) {
+  
+}
 
-         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span>410-602-5008</span></a><div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-        */
+/** Medium devices only **/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /** Header */
+  #logo-img {
+    background: url("../images/restaurant-logo_medium.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/** Small devices onlu **/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** Extra small devices only **/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% fo viewport width */
+  }
+
+  .navbar-brand p { /* certifited */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  .navbar-brand p img { /* stat-k */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951C49;
+  }
+
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+}
