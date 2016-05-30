@@ -8,6 +8,10 @@
 	<title>Restaraut Davi Chu Chinese Food</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<!-- 引入地图css file -->
+	<link rel="stylesheet" href="css/map.css">
+	<!-- 引入地图js file -->
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -70,19 +74,39 @@
     </a>
   </div>
   <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
-  
-
 
   	<div id="main-content" class="container">
     <div class="jumbotron">
       <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
     </div>
-  </div>
 
+	<div id="home-tiles" class="row">
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+		</div>
+
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<a href="sigle-categories.html"><div id="specials-tile"><span>specials</span></div></a>
+		</div>
+
+		<div class="col-md-4 col-sm-12 col-xs-12">
+		<a href="http://j.map.baidu.com/0BJDB">
+		<div id="map-tile">
+			  <!--百度地图容器-->
+  		<div style="width:100%;height:250px;border:#ccc solid 1px;" id="dituContent"></div>
+		<span>map</span>
+		</div>
+		</a>
+		</div>
+
+	</div>
+
+  </div>
 
 	<!-- JQuery (Bootstrap plugins depends on it !) -->
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script> 
+	<script src="js/map.js"></script>
 </body>
 </html>
