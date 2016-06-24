@@ -35,7 +35,7 @@ function loadHomeView() {
 
 	dc = {};// namespace
 
-	var homeHtml = "/snippets/home-snipper.html"
+	var homeHtml = "snippets/home-snipper.html"
 	var allCategoriesUrl = "http://davids-restaurant.herokuapp.com/categories.json";
 	// var allCategoriesUrl = "snippets/categories.json"
 	var categoriesTitleHtml = "snippets/categories-menu-title.html";
